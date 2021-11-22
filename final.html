@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>###Feinales Projekt Web Dev ###</title>
+    <style>
+        body{
+            background-color: rosybrown;
+        }
+        h1{ 
+            background-color: salmon;
+            padding: 5px;
+            width: 300px;
+            margin: 5px auto;
+        }
+
+        
+    }
+        .eltern div{
+            text-align: center;
+            margin: 10px;
+        }
+         .kind1{
+             flex: 1;
+             background-color: rgb(163, 38, 48);
+
+         }
+         .kind2{
+
+          flex:2;
+          background-color: brown;
+         }
+         .kind3{
+             display: flex;
+             
+             flex-grow: 2px;
+             background-color: rosybrown;
+             padding: 5px 90px;
+         }
+
+         
+   section.features-section{
+       background-color: tomato;
+       color: white;
+
+   }
+ul.features-list{
+    margin: 0;
+    padding-left: 60px;
+    display: flexbox;
+}
+li{
+    font-size: 1,1em;
+    margin-bottom: 1em;
+    margin-left: 2em;}
+
+    .boxmodel{
+            margin-right: 50px;
+            margin-left: 50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-left: 5px;
+            padding-bottom: 5px;
+            /** Shorthand Properties = Kurzschreibweisen**/
+            margin: 10px auto;
+            padding: 15px 5px;
+            border: 5px solid black;
+            width: 300px;
+            height: 200px;
+        }
+
+    
+   input[type="submit"]{
+       background-color: var(--primmary-color);
+       color: wheat;
+       font-weight: bold;
+       font-size: 1,3em;
+       border: none;
+       margin-bottom: 5em;
+       border-radius: 5em;
+       display: inline-block;
+       padding: .8em 2em;
+       width: unset;
+       cursor: pointer;
+
+   }
+   button{
+            color:lightgrey;
+            background-color:darkgrey;
+            border: 4px solid lightgrey;
+            border-radius: 150px;
+        }
+        
+        button:hover{
+            color:rgb(202, 58, 58);
+            background-color: rgb(208, 247, 36);
+            width: 150px;
+        }
+        table{
+            border-collapse: collapse;
+            text-align: center;
+            
+            width: 250px;
+            margin: 10px auto;
+        }
+        
+        tr,td,th{
+            border: 3px solid rgb(66, 3, 117);
+        }
+        
+        th{
+            background-color:rgb(248, 124, 201);
+        }
+
+       
+         
+
+    </style>
+</head>
+<body>
+    <h1>*frichblumenladen*</h1>
+    <ul>
+        <li>
+            <a href="https://www.google.com">Home</a>
+        </li>
+        <li>
+            <a href="https://www.google.com">services</a>
+        </li>
+        
+    </ul>
+    <div class="eltern">
+        <div class="kind1">Besucen Sie uns und finden Sie,was Sie glücklich macht</div>
+        <div class="kind1">wir könen auch gcshenkboxen gestalten</div>
+    </div>
+    <div class="eltern">
+        <div class="kind1"> 
+            <div class="eltern">
+                <div class="kind3">
+                    <img src="exotic flowers.jpg" alt="exotic flowers">
+ 
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="boxmodel">
+            <h2>Bezahlung</h2>
+            <span>Art der Bezahlung:</span>
+            <select>
+              <option>American Express</option>
+              <option>PayPal</option>
+              <option>Mastercard</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="checkbox">
+            <span>Quittung per E-Mail an folgende Adresse:</span>
+            <input type="email" placeholder="...@...">
+        </div>
+
+    </div>
+    
+    <section class="featueres-section">
+        <div class="container">
+            <ul>
+                <li>Geöfnt Um 8 Uhr</li>
+                <li>Schlibeßt Um 18 Uhr</li>
+                <li>Unser telifon numer 0212345678</li>
+                <li> Fragen und antworten wir sind fur sie immer da</li>
+                <li> BLUMEN & Pflanzen immer frich </li>
+                
+            </ul>
+            <img src="flower.png" class="hero-img" alt="flower">
+            
+        </div>
+
+    </section>
+
+    <ul>
+        <li>
+            <a href="http://www.google.com">infomationen</a>
+        </li>
+        <li>
+            <a href="http://www.google.com">Ruf jetz an</a>
+        </li>
+      
+    </ul>
+
+    <section class="cotact-section">
+        <div class="cotarner">
+            <div class="cotact-lift">
+                <h2>Wir Sind die Bisten</h2>
+   
+                <form action="">
+                    <label for="name"> Der Name</label>
+                    <input type="text" id="name" name="name" placeholder="Vorname">
+   
+   
+                    <label for="email"> Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="message">Nachricht schicken</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <input type="submit" class="send-message-cta" value="Nach oben klicken sie hier">
+   
+                </form>
+   
+            </div>
+   
+            </div>
+        </div>
+       </section>
+
+       <ul>
+        <li>
+            <label>PLZ</label>
+            <input type="number" />
+            <label>Ort</label>
+            <input type="text" />
+          </li>
+       </ul>
+          <br>
+          <br>
+
+
+       <button>Jetzt Kaufen!</button>
+         <br>
+         <br>
+         <br>
+       <div>
+        <img src="rflor.png" class="hero-img" alt="rflower">
+
+       </div>
+       <table>
+        <tr>
+            <th>Unser Haubtfiliale</th>
+            <th>Unser Nebenfiliale</th>
+        </tr>
+        <tr>
+            <td>Düsseldorf</td>
+            <td>Bochum</td>
+        </tr>
+    </table>
+    <input type="submit" value="Jetzt kostenpflichtig bestellen!">
+    
+</body>
+</html>
